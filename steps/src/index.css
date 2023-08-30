@@ -24,3 +24,23 @@ body {
     background-color: #2905f8;
     color: #ffffff;
 }
+
+h3 {
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.close {
+    /*position: absolute;*/
+    top: 16px;
+    right: 16px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: inherit;
+}
+
+.close:hover {
+    color: #7950f2;
+}
